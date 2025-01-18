@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Scarcity and Pollution Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Water Scarcity and Pollution Tracker</h1>
+        <div id="location-input">
+            <input type="text" id="location" placeholder="Enter your location (e.g., city, address)">
+            <button onclick="searchLocation()">Search</button>
+        </div>
+        <div id="map"></div>
+        <div id="weather-info"></div>
+        <div id="submit-form">
+    <h2>Submit a New Polluted Area</h2>
+    <input type="text" id="new-location-name" placeholder="Location Name">
+    <select id="pollution-type">
+        <option value="">Select Pollution Type</option>
+        <option value="chemical">Chemical Pollution</option>
+        <option value="biological">Biological Pollution</option>
+        <option value="thermal">Thermal Pollution</option>
+        <option value="nutrient">Nutrient Pollution</option>
+        <option value="plastic">Plastic Pollution</option>
+    </select>
+    <select id="pollution-severity">
+        <option value="">Select Severity</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+        <option value="critical">Critical</option>
+    </select>
+    <textarea id="new-location-description" placeholder="Description of pollution"></textarea>
+    <button onclick="submitNewLocation()">Submit Polluted Area</button>
+</div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
