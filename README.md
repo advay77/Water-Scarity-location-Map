@@ -38,6 +38,13 @@ This project is a web application that allows users to track water scarcity and 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+![WhatsApp Image 2025-01-21 at 11 41 34_8291dcea](https://github.com/user-attachments/assets/cad96748-4857-4a5b-80f4-4e50cff138cc)
+
+![WhatsApp Image 2025-01-21 at 11 40 26_7b1c4bbb](https://github.com/user-attachments/assets/12c35922-aaae-43d9-a744-b1c696d6f763)
+
+
+
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
