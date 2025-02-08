@@ -38,7 +38,9 @@ This project is a web application that allows users to track water scarcity and 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-"C:\Users\Advay Anand\Downloads\clideo_editor_0df2068491b147b4a6a78ddd4a30bffb.mp4"
+
+![WhatsApp Image 2025-01-21 at 11 41 34_4e07734e](https://github.com/user-attachments/assets/baf55086-6ec8-40e9-ae77-45a1c98d8ada)
+
 
 
 
